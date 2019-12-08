@@ -1,0 +1,118 @@
+
+.navbar-logo {
+    max-width: 140px;
+    vertical-align: -webkit-baseline-middle;
+    position: relative;
+    left: 30px;
+}
+
+.profile-img {
+    width:35%;
+    border: 2px solid white;
+
+}
+
+.profile-img > img {
+    border-radius: 50% !important;
+}
+
+.blue {
+  color: #4AA0DE;
+}
+
+.bg-blue {
+  background-color: #4AA0DE;
+}
+
+.red {
+  color: #EE6763;
+}
+
+.bg-red {
+  background-color:	#EE6763;
+}
+
+.sidebar {
+  box-shadow: none !important;
+}
+
+.active {
+    background: rgba(200, 200, 200, 0.315);
+    width:85%;
+}
+
+
+.sidebar {
+  padding-top: 0px !important;
+}
+
+.sidebar-top {
+  width: 100%;
+  background-color: #4AA0DE;
+  text-align: center;
+  padding: 20px;
+}
+
+.sidebar-top-item {
+  display: block;
+}
+
+.sidebar-top-h {
+  color: white;
+  font-size: 2em;
+}
+
+.log-out {
+    position: relative;
+    margin-top:35%;
+}
+.sidebar-sticky {
+  padding-top: 0px !important;
+}
+
+[role="main"] {
+  padding-top: 0px !important;
+}
+
+.form-control {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+button {
+  margin: 10px;
+}
+
+.nav-link i {
+  margin-right: 15px;
+  width: 20px;
+}
+
+
+.login-form {
+    border: 1px solid black;
+
+}
+
+
+.sent-text > p {
+    position: relative;
+    font-size: 3em;
+    letter-spacing: 4px;
+    overflow: hidden;
+    background: linear-gradient(90deg, #2CA8FF, #fff,#2CA8FF);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    animation: animate 7s linear infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(232, 243, 255, 0);
+  }
+
+  @keyframes animate {
+    0% {
+      background-position: -500%;
+    }
+    100% {
+      background-position: 500%;
+    }
+  }
