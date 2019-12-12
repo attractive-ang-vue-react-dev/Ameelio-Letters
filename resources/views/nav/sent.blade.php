@@ -17,15 +17,17 @@
     </div>
     <div class="content">
         <div class="wrapper">
-            <div class="row col-lg-12 col-md-12 col-sm-12">
+            <div class="row col-md-12 col-sm-12">
 
-                <div class="col-m-3">
-                    <a class="bnt btn-lg btn-sm btn-primary" href="/tracker">Track your letter</a>
-                </div>
 
-                <div class="container" style="padding:10%;">
+                <div class="container pt-4" style="text-align: center;">
                     <div class="sent-text">
-                        <p>Thanks for using Ameelio.<br>Your letter is on the way.</p>
+                        <h1 class="pt-4"><b>Thank you!</b></h1>
+                        <img src="/check.png">
+                        <h1 class="pt-4"><b>Your Letter is on the way!</b></h1>
+                        <div class="pt-3">
+                            <a class="bnt btn-lg btn-sm btn-primary" href="/tracker"><b>Track your letter</b></a>
+                        </div>
                     </div>
                 </div>
             </div>
